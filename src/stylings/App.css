@@ -1,0 +1,45 @@
+body{
+  margin-top: 1px;
+  margin-left: 1px;
+  position: relative;
+}
+
+.normal{
+  background-color: #f7f7f7;
+  width: 40px;
+  height: 40px;
+  border: 1px, 1px, 1px, 1px;
+  margin-top: 1px;
+  margin-right: 1px;
+  border-color: black;
+  outline: 0;
+  font-size: 30px;
+}
+
+.outputLine{
+  padding-left: 2px;
+  padding-right: 2px;
+  height: 40px;
+  width: 155px;
+  border-radius: 1px;
+  border-color: black;
+  background-color: #f7f7f7;
+  color: black;
+  font-size: 30px;
+}
+
+.plus{
+  height: 81px;
+  position: absolute;
+  top: 87px;
+}
+
+.zero{
+  width: 81px;
+}
+
+.equal{
+  height: 81px;
+  position: absolute;
+  top: 169px;
+}
