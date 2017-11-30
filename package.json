@@ -2,13 +2,16 @@
   "name": "default",
   "version": "0.1.0",
   "private": true,
+  "main": "main.js",
   "dependencies": {
+    "electron": "^1.7.9",
     "lodash": "^4.17.4",
     "react": "^16.0.0",
     "react-dom": "^16.0.0",
     "react-scripts": "1.0.17"
   },
   "scripts": {
+    "electron": "node_modules/.bin/electron .", 
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
